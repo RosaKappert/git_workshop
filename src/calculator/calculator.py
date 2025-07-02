@@ -4,13 +4,13 @@ class Calculator:
 	def __init__(self):
 		pass
 
-	def add(num_1, num_2):
-		return num_1
+	def add(self, num_1, num_2):
+		return num_1+num_2
 
-	def div(num_1, num_2):
-		return num_1
+	def div(self, num_1, num_2):
+		return num_1/num_2
 
-	def mul(num_1, num_2):
+	def mul(self, num_1, num_2):
 		return num_1 * num_2
 
 if __name__ == "__main__":
